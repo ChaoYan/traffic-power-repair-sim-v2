@@ -1,0 +1,906 @@
+{
+  "S1": {
+    "strategy": "S1",
+    "actions": [
+      {
+        "strategy": "S1",
+        "step": 0,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "road",
+            "target_id": "R1",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          },
+          {
+            "team_id": "G2",
+            "target_type": "road",
+            "target_id": "R1",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          }
+        ],
+        "air_manifest": [],
+        "wait_actions": []
+      },
+      {
+        "strategy": "S1",
+        "step": 1,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "road",
+            "target_id": "R1",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          },
+          {
+            "team_id": "G2",
+            "target_type": "road",
+            "target_id": "R2",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          }
+        ],
+        "air_manifest": [],
+        "wait_actions": []
+      },
+      {
+        "strategy": "S1",
+        "step": 2,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "road",
+            "target_id": "R2",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          },
+          {
+            "team_id": "G2",
+            "target_type": "power",
+            "target_id": "P1",
+            "mode": "drive",
+            "effective_rate": 1.2,
+            "work_done": 1.2
+          }
+        ],
+        "air_manifest": [],
+        "wait_actions": [
+          {
+            "unit_id": "A1",
+            "reason": "weather_window_closed",
+            "action": "wait"
+          }
+        ]
+      },
+      {
+        "strategy": "S1",
+        "step": 3,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "power",
+            "target_id": "P1",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 0.8
+          },
+          {
+            "team_id": "G2",
+            "target_type": "power",
+            "target_id": "P2",
+            "mode": "drive",
+            "effective_rate": 1.2,
+            "work_done": 1.2
+          }
+        ],
+        "air_manifest": [],
+        "wait_actions": []
+      },
+      {
+        "strategy": "S1",
+        "step": 4,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "power",
+            "target_id": "P2",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          },
+          {
+            "team_id": "G2",
+            "target_type": "power",
+            "target_id": "P2",
+            "mode": "drive",
+            "effective_rate": 1.2,
+            "work_done": 0.8
+          }
+        ],
+        "air_manifest": [],
+        "wait_actions": [
+          {
+            "unit_id": "A1",
+            "reason": "weather_window_closed",
+            "action": "wait"
+          }
+        ]
+      },
+      {
+        "strategy": "S1",
+        "step": 5,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "power",
+            "target_id": "P3",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          },
+          {
+            "team_id": "G2",
+            "target_type": "power",
+            "target_id": "P3",
+            "mode": "drive",
+            "effective_rate": 1.2,
+            "work_done": 1.0
+          }
+        ],
+        "air_manifest": [],
+        "wait_actions": []
+      },
+      {
+        "strategy": "S1",
+        "step": 6,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "power",
+            "target_id": "P4",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          }
+        ],
+        "air_manifest": [],
+        "wait_actions": []
+      }
+    ],
+    "recovery_curve": [
+      {
+        "strategy": "S1",
+        "step": 0,
+        "repaired_nodes": 0,
+        "total_nodes": 4,
+        "recovery_ratio": 0.0
+      },
+      {
+        "strategy": "S1",
+        "step": 1,
+        "repaired_nodes": 0,
+        "total_nodes": 4,
+        "recovery_ratio": 0.0
+      },
+      {
+        "strategy": "S1",
+        "step": 2,
+        "repaired_nodes": 0,
+        "total_nodes": 4,
+        "recovery_ratio": 0.0
+      },
+      {
+        "strategy": "S1",
+        "step": 3,
+        "repaired_nodes": 1,
+        "total_nodes": 4,
+        "recovery_ratio": 0.25
+      },
+      {
+        "strategy": "S1",
+        "step": 4,
+        "repaired_nodes": 2,
+        "total_nodes": 4,
+        "recovery_ratio": 0.5
+      },
+      {
+        "strategy": "S1",
+        "step": 5,
+        "repaired_nodes": 3,
+        "total_nodes": 4,
+        "recovery_ratio": 0.75
+      },
+      {
+        "strategy": "S1",
+        "step": 6,
+        "repaired_nodes": 4,
+        "total_nodes": 4,
+        "recovery_ratio": 1.0
+      }
+    ],
+    "final_step": 6
+  },
+  "S2": {
+    "strategy": "S2",
+    "actions": [
+      {
+        "strategy": "S2",
+        "step": 0,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "road",
+            "target_id": "R1",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          },
+          {
+            "team_id": "G2",
+            "target_type": "power",
+            "target_id": "P1",
+            "mode": "walk",
+            "effective_rate": 0.667,
+            "work_done": 0.667
+          }
+        ],
+        "air_manifest": [],
+        "wait_actions": []
+      },
+      {
+        "strategy": "S2",
+        "step": 1,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "road",
+            "target_id": "R1",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          },
+          {
+            "team_id": "G2",
+            "target_type": "power",
+            "target_id": "P1",
+            "mode": "walk",
+            "effective_rate": 0.667,
+            "work_done": 0.667
+          }
+        ],
+        "air_manifest": [],
+        "wait_actions": []
+      },
+      {
+        "strategy": "S2",
+        "step": 2,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "road",
+            "target_id": "R1",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          },
+          {
+            "team_id": "G2",
+            "target_type": "power",
+            "target_id": "P1",
+            "mode": "drive",
+            "effective_rate": 1.2,
+            "work_done": 0.667
+          }
+        ],
+        "air_manifest": [],
+        "wait_actions": [
+          {
+            "unit_id": "A1",
+            "reason": "weather_window_closed",
+            "action": "wait"
+          }
+        ]
+      },
+      {
+        "strategy": "S2",
+        "step": 3,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "road",
+            "target_id": "R2",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          },
+          {
+            "team_id": "G2",
+            "target_type": "power",
+            "target_id": "P2",
+            "mode": "drive",
+            "effective_rate": 1.2,
+            "work_done": 1.2
+          }
+        ],
+        "air_manifest": [],
+        "wait_actions": []
+      },
+      {
+        "strategy": "S2",
+        "step": 4,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "road",
+            "target_id": "R2",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          },
+          {
+            "team_id": "G2",
+            "target_type": "power",
+            "target_id": "P2",
+            "mode": "drive",
+            "effective_rate": 1.2,
+            "work_done": 1.2
+          }
+        ],
+        "air_manifest": [],
+        "wait_actions": [
+          {
+            "unit_id": "A1",
+            "reason": "weather_window_closed",
+            "action": "wait"
+          }
+        ]
+      },
+      {
+        "strategy": "S2",
+        "step": 5,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "power",
+            "target_id": "P2",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 0.6
+          },
+          {
+            "team_id": "G2",
+            "target_type": "power",
+            "target_id": "P3",
+            "mode": "drive",
+            "effective_rate": 1.2,
+            "work_done": 1.2
+          }
+        ],
+        "air_manifest": [],
+        "wait_actions": []
+      },
+      {
+        "strategy": "S2",
+        "step": 6,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "power",
+            "target_id": "P3",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 0.8
+          },
+          {
+            "team_id": "G2",
+            "target_type": "power",
+            "target_id": "P4",
+            "mode": "drive",
+            "effective_rate": 1.2,
+            "work_done": 1.0
+          }
+        ],
+        "air_manifest": [],
+        "wait_actions": []
+      }
+    ],
+    "recovery_curve": [
+      {
+        "strategy": "S2",
+        "step": 0,
+        "repaired_nodes": 0,
+        "total_nodes": 4,
+        "recovery_ratio": 0.0
+      },
+      {
+        "strategy": "S2",
+        "step": 1,
+        "repaired_nodes": 0,
+        "total_nodes": 4,
+        "recovery_ratio": 0.0
+      },
+      {
+        "strategy": "S2",
+        "step": 2,
+        "repaired_nodes": 1,
+        "total_nodes": 4,
+        "recovery_ratio": 0.25
+      },
+      {
+        "strategy": "S2",
+        "step": 3,
+        "repaired_nodes": 1,
+        "total_nodes": 4,
+        "recovery_ratio": 0.25
+      },
+      {
+        "strategy": "S2",
+        "step": 4,
+        "repaired_nodes": 1,
+        "total_nodes": 4,
+        "recovery_ratio": 0.25
+      },
+      {
+        "strategy": "S2",
+        "step": 5,
+        "repaired_nodes": 2,
+        "total_nodes": 4,
+        "recovery_ratio": 0.5
+      },
+      {
+        "strategy": "S2",
+        "step": 6,
+        "repaired_nodes": 4,
+        "total_nodes": 4,
+        "recovery_ratio": 1.0
+      }
+    ],
+    "final_step": 6
+  },
+  "S3": {
+    "strategy": "S3",
+    "actions": [
+      {
+        "strategy": "S3",
+        "step": 0,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "road",
+            "target_id": "R1",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          },
+          {
+            "team_id": "G2",
+            "target_type": "road",
+            "target_id": "R1",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          }
+        ],
+        "air_manifest": [
+          {
+            "unit_id": "A1",
+            "task_type": "delivery",
+            "target_id": "P1",
+            "work_done": 1.2
+          }
+        ],
+        "wait_actions": []
+      },
+      {
+        "strategy": "S3",
+        "step": 1,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "road",
+            "target_id": "R1",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          },
+          {
+            "team_id": "G2",
+            "target_type": "road",
+            "target_id": "R2",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          }
+        ],
+        "air_manifest": [
+          {
+            "unit_id": "A1",
+            "task_type": "transfer",
+            "target_id": "P1",
+            "work_done": 0.8
+          }
+        ],
+        "wait_actions": []
+      },
+      {
+        "strategy": "S3",
+        "step": 2,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "road",
+            "target_id": "R2",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          },
+          {
+            "team_id": "G2",
+            "target_type": "power",
+            "target_id": "P2",
+            "mode": "drive",
+            "effective_rate": 1.2,
+            "work_done": 1.2
+          }
+        ],
+        "air_manifest": [],
+        "wait_actions": [
+          {
+            "unit_id": "A1",
+            "reason": "weather_window_closed",
+            "action": "wait"
+          }
+        ]
+      },
+      {
+        "strategy": "S3",
+        "step": 3,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "power",
+            "target_id": "P2",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          },
+          {
+            "team_id": "G2",
+            "target_type": "power",
+            "target_id": "P2",
+            "mode": "drive",
+            "effective_rate": 1.2,
+            "work_done": 0.8
+          }
+        ],
+        "air_manifest": [
+          {
+            "unit_id": "A1",
+            "task_type": "transfer",
+            "target_id": "P3",
+            "work_done": 0.8
+          }
+        ],
+        "wait_actions": []
+      },
+      {
+        "strategy": "S3",
+        "step": 4,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "power",
+            "target_id": "P3",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          },
+          {
+            "team_id": "G2",
+            "target_type": "power",
+            "target_id": "P3",
+            "mode": "drive",
+            "effective_rate": 1.2,
+            "work_done": 0.2
+          }
+        ],
+        "air_manifest": [],
+        "wait_actions": [
+          {
+            "unit_id": "A1",
+            "reason": "weather_window_closed",
+            "action": "wait"
+          }
+        ]
+      },
+      {
+        "strategy": "S3",
+        "step": 5,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "power",
+            "target_id": "P4",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          }
+        ],
+        "air_manifest": [],
+        "wait_actions": []
+      }
+    ],
+    "recovery_curve": [
+      {
+        "strategy": "S3",
+        "step": 0,
+        "repaired_nodes": 0,
+        "total_nodes": 4,
+        "recovery_ratio": 0.0
+      },
+      {
+        "strategy": "S3",
+        "step": 1,
+        "repaired_nodes": 1,
+        "total_nodes": 4,
+        "recovery_ratio": 0.25
+      },
+      {
+        "strategy": "S3",
+        "step": 2,
+        "repaired_nodes": 1,
+        "total_nodes": 4,
+        "recovery_ratio": 0.25
+      },
+      {
+        "strategy": "S3",
+        "step": 3,
+        "repaired_nodes": 2,
+        "total_nodes": 4,
+        "recovery_ratio": 0.5
+      },
+      {
+        "strategy": "S3",
+        "step": 4,
+        "repaired_nodes": 3,
+        "total_nodes": 4,
+        "recovery_ratio": 0.75
+      },
+      {
+        "strategy": "S3",
+        "step": 5,
+        "repaired_nodes": 4,
+        "total_nodes": 4,
+        "recovery_ratio": 1.0
+      }
+    ],
+    "final_step": 5
+  },
+  "S4": {
+    "strategy": "S4",
+    "actions": [
+      {
+        "strategy": "S4",
+        "step": 0,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "road",
+            "target_id": "R1",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          },
+          {
+            "team_id": "G2",
+            "target_type": "power",
+            "target_id": "P1",
+            "mode": "walk",
+            "effective_rate": 0.667,
+            "work_done": 0.667
+          }
+        ],
+        "air_manifest": [
+          {
+            "unit_id": "A1",
+            "task_type": "delivery",
+            "target_id": "P1",
+            "work_done": 1.2
+          }
+        ],
+        "wait_actions": []
+      },
+      {
+        "strategy": "S4",
+        "step": 1,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "road",
+            "target_id": "R1",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          },
+          {
+            "team_id": "G2",
+            "target_type": "power",
+            "target_id": "P1",
+            "mode": "walk",
+            "effective_rate": 0.667,
+            "work_done": 0.133
+          }
+        ],
+        "air_manifest": [
+          {
+            "unit_id": "A1",
+            "task_type": "delivery",
+            "target_id": "P3",
+            "work_done": 1.2
+          }
+        ],
+        "wait_actions": []
+      },
+      {
+        "strategy": "S4",
+        "step": 2,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "road",
+            "target_id": "R1",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          },
+          {
+            "team_id": "G2",
+            "target_type": "power",
+            "target_id": "P2",
+            "mode": "drive",
+            "effective_rate": 1.2,
+            "work_done": 1.2
+          }
+        ],
+        "air_manifest": [],
+        "wait_actions": [
+          {
+            "unit_id": "A1",
+            "reason": "weather_window_closed",
+            "action": "wait"
+          }
+        ]
+      },
+      {
+        "strategy": "S4",
+        "step": 3,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "road",
+            "target_id": "R2",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          },
+          {
+            "team_id": "G2",
+            "target_type": "power",
+            "target_id": "P2",
+            "mode": "drive",
+            "effective_rate": 1.2,
+            "work_done": 1.2
+          }
+        ],
+        "air_manifest": [
+          {
+            "unit_id": "A1",
+            "task_type": "delivery",
+            "target_id": "P3",
+            "work_done": 0.8
+          }
+        ],
+        "wait_actions": []
+      },
+      {
+        "strategy": "S4",
+        "step": 4,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "road",
+            "target_id": "R2",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          },
+          {
+            "team_id": "G2",
+            "target_type": "power",
+            "target_id": "P2",
+            "mode": "drive",
+            "effective_rate": 1.2,
+            "work_done": 0.6
+          }
+        ],
+        "air_manifest": [],
+        "wait_actions": [
+          {
+            "unit_id": "A1",
+            "reason": "weather_window_closed",
+            "action": "wait"
+          }
+        ]
+      },
+      {
+        "strategy": "S4",
+        "step": 5,
+        "ground_assignments": [
+          {
+            "team_id": "G1",
+            "target_type": "power",
+            "target_id": "P4",
+            "mode": "drive",
+            "effective_rate": 1.0,
+            "work_done": 1.0
+          }
+        ],
+        "air_manifest": [],
+        "wait_actions": []
+      }
+    ],
+    "recovery_curve": [
+      {
+        "strategy": "S4",
+        "step": 0,
+        "repaired_nodes": 0,
+        "total_nodes": 4,
+        "recovery_ratio": 0.0
+      },
+      {
+        "strategy": "S4",
+        "step": 1,
+        "repaired_nodes": 1,
+        "total_nodes": 4,
+        "recovery_ratio": 0.25
+      },
+      {
+        "strategy": "S4",
+        "step": 2,
+        "repaired_nodes": 1,
+        "total_nodes": 4,
+        "recovery_ratio": 0.25
+      },
+      {
+        "strategy": "S4",
+        "step": 3,
+        "repaired_nodes": 2,
+        "total_nodes": 4,
+        "recovery_ratio": 0.5
+      },
+      {
+        "strategy": "S4",
+        "step": 4,
+        "repaired_nodes": 3,
+        "total_nodes": 4,
+        "recovery_ratio": 0.75
+      },
+      {
+        "strategy": "S4",
+        "step": 5,
+        "repaired_nodes": 4,
+        "total_nodes": 4,
+        "recovery_ratio": 1.0
+      }
+    ],
+    "final_step": 5
+  }
+}

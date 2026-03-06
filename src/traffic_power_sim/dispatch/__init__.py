@@ -1,1 +1,1 @@
-"""dispatch module for traffic-power simulation."""
+"""Dispatch strategy baselines for traffic-power simulation."""
