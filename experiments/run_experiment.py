@@ -22,6 +22,14 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
+
+# Configure Chinese font support
+plt.rcParams["font.sans-serif"] = [
+    "Noto Sans CJK JP", "Noto Sans CJK SC", "Noto Sans CJK TC",
+    "WenQuanYi Micro Hei", "SimHei", "DejaVu Sans",
+]
+plt.rcParams["axes.unicode_minus"] = False
+
 import wandb
 
 ROOT = Path(__file__).resolve().parent.parent

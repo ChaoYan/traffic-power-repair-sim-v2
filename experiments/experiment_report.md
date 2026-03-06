@@ -1,6 +1,6 @@
 # 交通-电力耦合网络灾后抢修调度对照实验报告 v2
 
-> 生成时间: 2026-03-06 | wandb 实验面板: https://wandb.ai/chaoyan/traffic-power-repair-sim/runs/6g26vwy2
+> 生成时间: 2026-03-06 | wandb 实验面板: https://wandb.ai/chaoyan/traffic-power-repair-sim/runs/ex7d1kdc
 
 ## 1. 实验概述
 
@@ -44,21 +44,21 @@
 
 ### 2.2 LSD恢复曲线
 
-![LSD恢复曲线对比](https://i.ibb.co/9kvjXFmy/lsd-recovery-curves.png)
+![LSD恢复曲线对比](https://i.ibb.co/60PY6N3R/lsd-recovery-curves.png)
 
 图中展示了四类策略下已恢复负荷 L(t) 的阶梯型变化。S4策略在早期即恢复较多关键负荷，
 累计收益(AUC)最高; S1策略恢复启动晚，前期平台期长。
 
 ### 2.3 关键设施供电率恢复曲线
 
-![PK恢复曲线对比](https://i.ibb.co/TBL8cbvV/pk-recovery-curves.png)
+![PK恢复曲线对比](https://i.ibb.co/N2LySHhC/pk-recovery-curves.png)
 
 PK(t) 反映关键设施（医院、安置点、指挥中心）的供电恢复进度。
 含空中支援的策略(S3/S4)能更早提升关键设施供电率。
 
 ### 2.4 AUC与工期对比
 
-![AUC与工期对比](https://i.ibb.co/7NRs8Bgy/auc-makespan-comparison.png)
+![AUC与工期对比](https://i.ibb.co/nMpdf41s/auc-makespan-comparison.png)
 
 AUC直接体现"越早恢复越好"的韧性目标。S4策略AUC最高，
 说明其在关键负荷的早期恢复方面优势最为明显。
@@ -80,7 +80,7 @@ AUC直接体现"越早恢复越好"的韧性目标。S4策略AUC最高，
 | 3.0 | 3800.0 | 1650.0 | 5750.0 | 7300.0 | S4 |
 
 
-![κ_walk敏感性分析](https://i.ibb.co/s9Ncvvj6/sensitivity-kappa.png)
+![κ_walk敏感性分析](https://i.ibb.co/bjHtB7hq/sensitivity-kappa.png)
 
 **发现**: 当κ_walk增大（徒步代价升高）时，依赖空中资源的S3/S4策略优势更为突出。
 
@@ -95,7 +95,7 @@ AUC直接体现"越早恢复越好"的韧性目标。S4策略AUC最高，
 | 严重中断(50%) | 3800.0 | 3850.0 | 5050.0 | 5550.0 | S4 |
 
 
-![天气窗敏感性分析](https://i.ibb.co/993p17Db/sensitivity-weather.png)
+![天气窗敏感性分析](https://i.ibb.co/MyFMMVhP/sensitivity-weather.png)
 
 **发现**: 天气中断越频繁，所有策略的AUC均下降，但S4天地协同策略的相对优势在中等中断条件下最为显著。
 
@@ -110,7 +110,7 @@ AUC直接体现"越早恢复越好"的韧性目标。S4策略AUC最高，
 | 4队(多资源) | 2750.0 | 4500.0 | 4850.0 | 7750.0 | S4 |
 
 
-![队伍编成敏感性分析](https://i.ibb.co/TqFC31P1/sensitivity-teams.png)
+![队伍编成敏感性分析](https://i.ibb.co/5W466WgV/sensitivity-teams.png)
 
 **发现**: 增加队伍数量能显著提升所有策略的AUC，但提升幅度在不同策略间存在差异。
 
