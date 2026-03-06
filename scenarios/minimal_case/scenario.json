@@ -1,0 +1,23 @@
+{
+  "name": "minimal_case",
+  "time_horizon": 16,
+  "kappa_walk": 1.8,
+  "weather_windows": [true, true, false, true, false, true, true, true],
+  "roads": [
+    {"id": "R1", "repair_hours": 3},
+    {"id": "R2", "repair_hours": 2}
+  ],
+  "power_nodes": [
+    {"id": "P1", "repair_hours": 2, "critical": true, "road_dependency": "R1"},
+    {"id": "P2", "repair_hours": 3, "critical": false, "road_dependency": "R1"},
+    {"id": "P3", "repair_hours": 2, "critical": true, "road_dependency": "R2"},
+    {"id": "P4", "repair_hours": 1, "critical": false, "road_dependency": null}
+  ],
+  "ground_teams": [
+    {"id": "G1", "road_repair_rate": 1.0, "power_repair_rate": 1.0},
+    {"id": "G2", "road_repair_rate": 1.0, "power_repair_rate": 1.2}
+  ],
+  "air_units": [
+    {"id": "A1", "delivery_rate": 1.2, "recon_rate": 0.0, "transfer_rate": 0.8}
+  ]
+}
