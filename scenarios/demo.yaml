@@ -1,0 +1,6 @@
+scenario_name: demo
+time_step_minutes: 5
+traffic:
+  nodes: 0
+power:
+  nodes: 0
