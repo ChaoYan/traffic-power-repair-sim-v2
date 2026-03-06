@@ -1,0 +1,2 @@
+event_id,type,geo,affected_edges,affected_lines,start_time
+f1,coupled,"{""lon"":120.2,""lat"":30.2}","[""r2""]","[""p2""]",2025-01-01T08:00:00

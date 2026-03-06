@@ -1,0 +1,2 @@
+heli_id,base,fuel,v_air,payload,load_unload,weather_limits,lz_set
+h1,n1,800,180,300,10,vfr_only,"[""n1"",""n3""]"
