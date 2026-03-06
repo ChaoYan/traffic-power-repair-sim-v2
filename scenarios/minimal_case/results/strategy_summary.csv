@@ -1,0 +1,5 @@
+strategy,final_step,repaired_nodes,total_nodes,final_recovery_ratio
+S1,6,4,4,1.0
+S2,6,4,4,1.0
+S3,5,4,4,1.0
+S4,5,4,4,1.0
