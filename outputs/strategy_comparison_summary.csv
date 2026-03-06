@@ -1,0 +1,4 @@
+strategy,AUC,Makespan,FinalRecoveredLoad,Chapter10Comparable,EarlyRecoveryBenefit
+strategy_alpha,715.0,12,100,True,75.0
+strategy_beta,691.0,12,100,True,51.0
+strategy_gamma,640.0,12,100,True,0.0

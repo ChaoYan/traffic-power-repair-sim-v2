@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="100%" height="100%" fill="white"/>
+<text x="450.0" y="24" text-anchor="middle" font-size="18">Recovered Load Curves by Strategy (Step-wise)</text>
+<line x1="80" y1="450" x2="870" y2="450" stroke="#222"/>
+<line x1="80" y1="40" x2="80" y2="450" stroke="#222"/>
+<line x1="75" y1="450.0" x2="80" y2="450.0" stroke="#666"/>
+<text x="70" y="454.0" text-anchor="end" font-size="12">0</text>
+<line x1="75" y1="347.5" x2="80" y2="347.5" stroke="#666"/>
+<text x="70" y="351.5" text-anchor="end" font-size="12">25</text>
+<line x1="75" y1="245.0" x2="80" y2="245.0" stroke="#666"/>
+<text x="70" y="249.0" text-anchor="end" font-size="12">50</text>
+<line x1="75" y1="142.5" x2="80" y2="142.5" stroke="#666"/>
+<text x="70" y="146.5" text-anchor="end" font-size="12">75</text>
+<line x1="75" y1="40.0" x2="80" y2="40.0" stroke="#666"/>
+<text x="70" y="44.0" text-anchor="end" font-size="12">100</text>
+<line x1="80.0" y1="450" x2="80.0" y2="455" stroke="#666"/>
+<text x="80.0" y="472" text-anchor="middle" font-size="12">0</text>
+<line x1="211.66666666666666" y1="450" x2="211.66666666666666" y2="455" stroke="#666"/>
+<text x="211.66666666666666" y="472" text-anchor="middle" font-size="12">2</text>
+<line x1="409.1666666666667" y1="450" x2="409.1666666666667" y2="455" stroke="#666"/>
+<text x="409.1666666666667" y="472" text-anchor="middle" font-size="12">5</text>
+<line x1="606.6666666666666" y1="450" x2="606.6666666666666" y2="455" stroke="#666"/>
+<text x="606.6666666666666" y="472" text-anchor="middle" font-size="12">8</text>
+<line x1="870.0" y1="450" x2="870.0" y2="455" stroke="#666"/>
+<text x="870.0" y="472" text-anchor="middle" font-size="12">12</text>
+<text x="450.0" y="502" text-anchor="middle" font-size="14">t</text>
+<text x="20" y="260.0" text-anchor="middle" font-size="14" transform="rotate(-90 20 260.0)">Restored Load (LSD)</text>
+<polyline fill="none" stroke="#1f77b4" stroke-width="2.5" points="80.00,450.00 211.67,450.00 211.67,306.50 409.17,306.50 409.17,163.00 606.67,163.00 606.67,40.00 870.00,40.00 870.00,40.00"/>
+<line x1="690" y1="50" x2="716" y2="50" stroke="#1f77b4" stroke-width="3"/>
+<text x="722" y="54" font-size="12">strategy_alpha</text>
+<polyline fill="none" stroke="#ff7f0e" stroke-width="2.5" points="80.00,450.00 211.67,450.00 211.67,347.50 409.17,347.50 409.17,154.80 606.67,154.80 606.67,40.00 870.00,40.00 870.00,40.00"/>
+<line x1="690" y1="70" x2="716" y2="70" stroke="#ff7f0e" stroke-width="3"/>
+<text x="722" y="74" font-size="12">strategy_beta</text>
+<polyline fill="none" stroke="#2ca02c" stroke-width="2.5" points="80.00,450.00 211.67,450.00 211.67,368.00 409.17,368.00 409.17,204.00 606.67,204.00 606.67,40.00 870.00,40.00 870.00,40.00"/>
+<line x1="690" y1="90" x2="716" y2="90" stroke="#2ca02c" stroke-width="3"/>
+<text x="722" y="94" font-size="12">strategy_gamma</text>
+</svg>
