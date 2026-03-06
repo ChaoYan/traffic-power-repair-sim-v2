@@ -1,0 +1,2 @@
+site_id,type,road_node,power_node,demand,weight,threshold_eta
+s_hospital_1,hospital,n3,ps3,5,1.0,45

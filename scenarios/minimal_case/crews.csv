@@ -1,0 +1,3 @@
+crew_id,type,start_node,shift_start,shift_end,skill,speed_profile
+c_road_1,road,n1,2025-01-01T08:00:00,2025-01-01T20:00:00,asphalt_repair,urban_day
+c_power_1,power,n2,2025-01-01T08:00:00,2025-01-01T20:00:00,line_repair,urban_day

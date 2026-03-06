@@ -1,0 +1,3 @@
+power_element_id,road_node,area,secondary_effect_params
+p1,n2,downtown,"{""delay_factor"":1.15}"
+p2,n3,east,"{""delay_factor"":1.40}"

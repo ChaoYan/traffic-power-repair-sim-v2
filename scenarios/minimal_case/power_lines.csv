@@ -1,0 +1,3 @@
+line_id,u,v,weight,status,repair_time,critical_weight
+p1,ps1,ps2,1.0,energized,3,0.8
+p2,ps2,ps3,1.2,outage,6,1.0
